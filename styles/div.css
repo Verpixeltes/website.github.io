@@ -1,0 +1,30 @@
+
+.cycle {
+    border: solid 3px #B1D182;
+    opacity: 0;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 560px;
+    left: 620px;
+    margin-top: 30px;
+    filter: blur(5px);
+    
+}
+
+.cycle1 {
+    transition: 300ms;
+}
+.cycle2 {
+    transition: 500ms;
+}
+.cycle_show {
+    filter: blur(0px);
+    transform: translateY(40px);
+    opacity: 1;
+}
+
+
+.cycle3 {
+    transition: 700ms;
+}
